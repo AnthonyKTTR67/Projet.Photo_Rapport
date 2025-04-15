@@ -1,3 +1,5 @@
+//fichier modifié pour des raisons de cybersécurité.
+
 #include <DHT.h>
 #include <SPI.h>
 #include <Ethernet.h>
@@ -11,7 +13,7 @@ DHT dht(DHTPIN, DHTTYPE);         // Initialisation du capteur DHT11
 // Configuration du réseau Ethernet
 byte mac[] = { 0xA8, 0x61, 0x0A, 0xAE, 0x6F, 0x4D }; // Adresse MAC unique pour l’Ethernet Shield
 IPAddress ip(10, 129, 251, 1);                       // Adresse IP de l’Arduino
-EthernetServer server(1904);                // Serveur web sur le port 1904
+EthernetServer server(****);                // Serveur web sur le port ****
 
 // Configuration du client Ethernet
 EthernetClient ethernetClient; // Client Ethernet pour se connecter à MQTT
