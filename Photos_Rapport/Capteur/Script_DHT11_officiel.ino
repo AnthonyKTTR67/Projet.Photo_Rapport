@@ -20,7 +20,7 @@ EthernetClient ethernetClient; // Client Ethernet pour se connecter à MQTT
 
 // Configuration du client MQTT
 IPAddress mqttServer(10, 129, 251, 253); // Adresse IP du serveur MQTT
-const int mqttPort = 1883;               // Port par défaut du serveur MQTT
+const int mqttPort = ****;               // Port du serveur MQTT
 PubSubClient clientMQTT(ethernetClient); // Initialisation du client MQTT avec EthernetClient
 
 // Dernière température mesurée
